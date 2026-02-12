@@ -6,6 +6,7 @@ const initialState = {
   loading: false,
 };
 
+
 const userSlice = createSlice({
   name: 'user',
   initialState,
@@ -71,3 +72,4 @@ export const {
 } = userSlice.actions;
 
 export default userSlice.reducer;
+
